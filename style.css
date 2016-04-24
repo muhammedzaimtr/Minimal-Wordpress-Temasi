@@ -43,7 +43,7 @@ a{
 }
 
 .slidemenu ul{
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .slidemenu ul li{
@@ -56,11 +56,6 @@ a{
   font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-.slidemenu ul li a:hover{
-  background-color: #535353;
-  color: #eee;
 }
 
 .header{
@@ -142,21 +137,19 @@ padding-top: 50px;
   display: inline-block;
 }
 
-.content .sayfalama ul li a{
-  display: block;
+.wp-pagenavi a, .wp-pagenavi span{display: inline-block;
   width: 30px;
   height: 30px;
   border:  1px solid #eee;
   border-radius: 50%;
   line-height: 30px;
-}
+margin-left: 10px;}
+.wp-pagenavi a:hover {background-color: #eee;}
+.wp-pagenavi span.current {background-color: #eee;}
 
-.content .sayfalama ul li a:hover{
-  background-color: #eee;
-}
-.content .sayfalama ul li a:active{
-  background-color: #eee;
-}
+.arala{margin-top:25px;margin-bottom:25px;}
+
+
 
 .footer{
   background-color: #eee;
@@ -182,6 +175,13 @@ padding-top: 50px;
 .content .yazi-icerik{
   margin-top: 20px;
   font-size: 20px;
+}
+
+.content .yazi-icerik img{
+max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .content .paylas{
@@ -215,4 +215,52 @@ padding-top: 50px;
   color: #535353;
   height: 300px;
   margin-top: 25px;
+}
+
+@media screen and (max-width: 768px){
+.content{
+  width: 75%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+}
+
+@media screen and (max-width: 480px){
+.content{
+  width: 95%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.slidemenu{
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+height: 100%;
+  background-color: #eee;
+  color: #535353;
+  display: none;
+}
+
+.slidemenu ul{
+  margin-left: 30px;
+}
+
+.slidemenu ul li{
+  display:block;
+}
+
+.slidemenu ul li a{
+  font-size: 20px;
+}
+
+}
+blockquote p
+{
+  font-style:normal;
+  margin-left:32px;
+  font-family:"Segoe Print", "Times New Roman", Verdana;
+  padding-left: 48px;
+  background:url('http://upload.muhammedzaim.com/u/832654433.png');
+  background-repeat:no-repeat;
+  min-height: 30px;  
 }
