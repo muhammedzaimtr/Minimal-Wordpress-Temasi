@@ -1,0 +1,218 @@
+/*
+Theme Name: Kişisel Blog Teması
+Theme URI: http://muhammedzaim.com
+Author: Muhammed Zaim
+Author URI: http://muhammedzaim.com
+Description: Bu tema Muhammed ZAİM tarafından özel olarak kodlanmıştır.
+Version: V 1.0
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #535353;
+}
+
+.menu{
+  position: absolute;
+}
+
+.menu img{
+  z-index: 9999;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+  cursor: pointer;
+  transition: 500ms width;
+}
+
+.slidemenu{
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  height: 100px;
+  background-color: #eee;
+  color: #535353;
+  display: none;
+}
+
+.slidemenu ul{
+  margin-left: 100px;
+}
+
+.slidemenu ul li{
+  display: inline-block;
+  line-height: 100px;
+}
+
+.slidemenu ul li a{
+  display: block;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.slidemenu ul li a:hover{
+  background-color: #535353;
+  color: #eee;
+}
+
+.header{
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.header .profil{
+  width: 150px;
+  height: 150px;
+margin: 0 auto;
+padding-top: 50px;
+}
+
+.header .profil img{
+  width: 150px;
+  height: 150px;
+ border-radius: 50%;
+}
+
+.header .header-yazi{
+  color: #535353;
+  font-size: 35px;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.header .header-aciklama{
+  color: #959595;
+  font-size: 20px;
+  font-weight: 300;
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.content{
+  width: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.content .content-baslik{
+  font-size: 25px;
+  font-weight: 600;
+  color: #535353;
+}
+
+.content .cizgi{
+  width: 100%;
+  border-top: 1px solid #eee;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.content .baslik{
+  color: #535353;
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.content .sayfalama{
+  width: 100%;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.content .sayfalama ul{
+  list-style-type: none;
+}
+
+.content .sayfalama ul li{
+  display: inline-block;
+}
+
+.content .sayfalama ul li a{
+  display: block;
+  width: 30px;
+  height: 30px;
+  border:  1px solid #eee;
+  border-radius: 50%;
+  line-height: 30px;
+}
+
+.content .sayfalama ul li a:hover{
+  background-color: #eee;
+}
+.content .sayfalama ul li a:active{
+  background-color: #eee;
+}
+
+.footer{
+  background-color: #eee;
+  font-size: 20px;
+  color: #535353;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
+
+/* Sayfa kısmı */
+
+.content .yazi-baslik{
+  margin-top: 50px;
+  font-size: 40px;
+}
+
+.content .yazi-detay{
+  font-size: 12px;
+  color: #959595;
+}
+
+.content .yazi-icerik{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.content .paylas{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.content .paylas ul li{
+  display: inline-block;
+  text-align: center;
+}
+
+.content .paylas ul li a{
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.content .paylas ul li a:hover{
+  background-color: #959595;
+  color: #fff;
+}
+
+.content .yok404{
+  font-size: 50px;
+  text-align: center;
+  color: #535353;
+  height: 300px;
+  margin-top: 25px;
+}
