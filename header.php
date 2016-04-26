@@ -49,9 +49,11 @@
 </div>
 
 <i class='icon-close ion-ios-close-empty'></i>
-<div class='form'>
-<input class='input-search' placeholder='Ara...' type='text'>
-</div>
+<form method="get" id="searchform" class='form' action="<?php bloginfo('home'); ?>/">
+            <input class="aramakutusu" type="text" size="put_a_size_here" name="s"
+             id="s" value="Ara..." onfocus="if(this.value==this.defaultValue)this.value='';"
+             onblur="if(this.value=='')this.value=this.defaultValue;"/>
+</form>
 
 
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>

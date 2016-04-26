@@ -263,15 +263,13 @@ blockquote p
   background:url('http://upload.muhammedzaim.com/u/832654433.png');
   background-repeat:no-repeat;
 <<<<<<< Updated upstream
-  min-height: 30px;  
+  min-height: 30px;
 =======
   min-height: 30px;
 }
 
 html,
 body {
-width: 100%;
-height: 100%;
 overflow-x: hidden;
 }
 

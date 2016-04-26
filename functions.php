@@ -56,10 +56,13 @@ if (function_exists('add_theme_support')) {
 
 /* Admin Bar özelliğini iptal et */
 add_filter( 'show_admin_bar', '__return_false' );
- 
+
 /* Admin Bar seçeneklerini kullanıcı profilinden kaldır */
 remove_action( 'personal_options', '_admin_bar_preferences' );
 
-
+function wpdocs_after_setup_theme() {
+    add_theme_support( 'html5', array( 'search-form' ) );
+}
+add_action( 'after_setup_theme', 'wpdocs_after_setup_theme' );
 
 ?>
