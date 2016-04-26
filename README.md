@@ -1,7 +1,7 @@
 # Minimal-Wordpress-Temasi
 
 #Geliştiriciler
-Muhammed Zaim
+Muhammed Zaim    
 Muhammet Arda Yildiz
 
 #LICENSE
