@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-<meta name="google-site-verification" content="Af3O7BIUKzLl1Jas0888D2JnYWahpR9JtPBanJLFFGE" />
-    <meta charset="utf-8">
-<meta name="google-site-verification" content="Af3O7BIUKzLl1Jas0888D2JnYWahpR9JtPBanJLFFGE" />
+  	<meta charset="utf-8">
     <title><?php wp_title(); ?></title>
     <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
