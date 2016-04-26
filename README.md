@@ -21,17 +21,18 @@ Tema Kullanmak İçin Ufak Notlar
  
 **index.php'deki
 
- `
-
-
+ `<div class="header"> <div class="profil"> <img src="https://scontent-fra3-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/12805861_100629130344258_6263348418377914498_n.jpg?oh=679b2f542a93d5ea62952244c1915c9c&oe=57742897" alt="Muhammed Zaim - Front-End Developer" /> </div> <div class="header-yazi"> Muhammed Zaim </div> <div class="header-aciklama"> Front-End Developer </div></div>
 ` 
 
 **foother.php'deki
 
 
- `
+ `<div class="footer"> &copy; Muhammed Zaim</div>
+` 
 
+** 404.php
 
+ `<div class="header"> <div class="profil"> <img src="https://scontent-fra3-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/12805861_100629130344258_6263348418377914498_n.jpg?oh=679b2f542a93d5ea62952244c1915c9c&oe=57742897" alt="Muhammed Zaim - Front-End Developer" /> </div> <div class="header-yazi"> Muhammed Zaim </div> <div class="header-aciklama"> Front-End Developer </div></div>
 ` 
 
 ** kısımları kendinize göre duzeltiniz
