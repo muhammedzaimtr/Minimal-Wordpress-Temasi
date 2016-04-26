@@ -1,7 +1,9 @@
 # Minimal-Wordpress-Temasi
 
+### Tema Geliştirme Aşamasındadır Eksikleri Çoktur :)
+
 #Geliştiriciler
-Muhammed Zaim
+Muhammed Zaim   
 Muhammet Arda Yildiz
 
 #LICENSE
