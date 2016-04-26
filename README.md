@@ -1,5 +1,9 @@
 # Minimal-Wordpress-Temasi
 
+#Geliştiriciler
+Muhammed Zaim
+Muhammet Arda Yildiz
+
 #LICENSE
 
 This is free and unencumbered software released into the public domain.
