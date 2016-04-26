@@ -33,6 +33,7 @@ echo "</div>";
 }
 }
 
+
 add_theme_support('slidemenu');
 register_nav_menus(array(
  'menu' => 'Header Menü',
@@ -52,6 +53,12 @@ if (function_exists('add_theme_support')) {
 
 
 }
+
+/* Admin Bar özelliğini iptal et */
+add_filter( 'show_admin_bar', '__return_false' );
+ 
+/* Admin Bar seçeneklerini kullanıcı profilinden kaldır */
+remove_action( 'personal_options', '_admin_bar_preferences' );
 
 
 

@@ -14,6 +14,8 @@
 <p><?php the_content(''); ?></p>
         </div>
 
+<div class="arala"></div>
+
 <?php endwhile;?>
     </div>
 <?php get_footer();?>
