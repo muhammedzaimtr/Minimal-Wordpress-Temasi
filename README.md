@@ -48,6 +48,10 @@ Tema Kullanmak İçin Ufak Notlar
 
 
 
+- Css Sıfırlama by Muhammed Zaim    [https://github.com/muhammedzaimtr/ZeroPage](https://github.com/muhammedzaimtr/ZeroPage)
+
+
+
 # Lisans
 
 
